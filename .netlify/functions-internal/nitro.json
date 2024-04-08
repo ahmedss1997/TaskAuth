@@ -1,5 +1,7 @@
 {
-  "date": "2024-04-08T22:06:55.359Z",
-  "preset": "netlify",
-  "commands": {}
+  "date": "2024-04-08T22:38:07.826Z",
+  "preset": "nitro-prerender",
+  "commands": {
+    "preview": "npx serve ../../dist"
+  }
 }
