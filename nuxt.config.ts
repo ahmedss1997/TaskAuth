@@ -2,6 +2,10 @@ import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
   
+  app: {
+    baseURL: '/TaskAuth/',
+    buildAssetsDir: 'assets', 
+  },
   build: {
     transpile: ['lodash-es']
   },
